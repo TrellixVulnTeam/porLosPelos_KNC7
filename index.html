@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>PorLosPelos</title>
+</head>
+<body>
+    <header>
+				<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="modalNews">
+							<h2 class="modal-title" id="exampleModalLabel">Subscribete al NewsLetter</h2>
+							<hr>
+							<p>Ingresa tu Mail y recibe la informacion sobre ultimas ofertas , cupones y eventos!</p>
+							<form>
+								<input type="email" placeholder="Email" required>
+								<br>
+								<button class="botonNews" data-bs-dismiss="modal">Enviar</button>
+								<button class="botonNews" data-bs-dismiss="modal">cerrar</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <section class="header">
+			<section class="contenedorHeader">
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="index.html"><img src="fotos/logo.png"></a>
+						<button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end derecha" id="navbarSupportedContent">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+								</li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Productos
+                                    </a>
+                                    <ul class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="productosFa.html">Faciales</a></li>
+                                        <li><a class="dropdown-item" href="ProductosCa.html">Capilares</a></li>
+                                        <li><a class="dropdown-item" href="productosCo.html">Corporales</a></li>
+                                    </ul>
+                                    </li>
+								<li class="nav-item">
+									<a class="nav-link active" href="nosotros.html">Nosotros</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="contacto.html">Contacto</a>
+								</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+				</nav>
+			</section>
+		</section>
+    </header>
+    <main>
+        <!-- slider banner	 -->
+		<div id="myCarousel" class="carousel slide">
+
+			<!-- Indicators -->
+			<ul class="carousel-indicators">
+				<li class="item1 active"></li>
+				<li class="item2"></li>
+				<li class="item3"></li>
+			</ul>
+
+			<!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="fotos/banner_1.jpg" alt="Preguntas Frecuentes" width="68.75em" height="31.25rem">
+					
+				</div>
+				<div class="carousel-item">
+					<img src="fotos/banner_2.jpg" alt="Nuestras Oficinas" width="68.75em" height="31.25rem">
+				</div>
+				<div class="carousel-item">
+					<img src="fotos/banner_3.jpg" alt="blackFriday" width="68.75em" height="31.25rem">
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="carousel-control-prev" href="javascript:;">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="javascript:;">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+
+        <div class="contenedorChico">
+		    <h2 class="textPD">Nuestros Productos</h2>
+		    <div class="fila">
+				<div class="columna-4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+					<h4>Producto</h4>
+				</div>
+				<div class="columna-4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+					<h4>Producto</h4>
+				</div>
+				<div class="columna-4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+					<h4>Producto</h4>
+				</div>
+				<div class="columna-4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+					<h4>Producto</h4>	
+				</div>
+		    </div>
+            <div class="fila">
+				<div class="columna-4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+					<h4>Producto</h4>		
+				</div>
+				<div class="columna-4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+					<h4>Producto</h4>	
+				</div>
+				<div class="columna-4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+					<h4>Producto</h4>
+				</div>
+				<div class="columna-4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+					<h4>Producto</h4>
+				</div>
+	    	</div>
+        </div>
+
+        <div class="contenedorChico">
+		    <h2 class="textPD">Productos Destacados</h2>
+		    <div class="grid">
+				<div class="pic_1">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+				</div>
+                <div class="desc_1">
+                    <h5>Mascara Hair botox con acido hialuronico</h5>
+                    <p>Tratamiento basado en el ácido hialuronico con argan oil y keratina, que estimula la formación de colágeno, elastina y keratina del cabello. Su principal beneficio es el elavado nivel de hidratacion que proporciona a la estructura capilar, compensando los efectos negativos producidos por el sol, los tratamientos agresivos y otras circunstancias que producen la perdida de agua en el cabello.</p>
+                    <button class="boton--grid">Ver Producto</button>
+				</div>
+                
+				<div class="pic_2">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+				</div>
+                <div class="desc_2">
+                    <h5>Mascara Hair botox con acido hialuronico</h5>
+                    <p>Tratamiento basado en el ácido hialuronico con argan oil y keratina, que estimula la formación de colágeno, elastina y keratina del cabello. Su principal beneficio es el elavado nivel de hidratacion que proporciona a la estructura capilar, compensando los efectos negativos producidos por el sol, los tratamientos agresivos y otras circunstancias que producen la perdida de agua en el cabello.</p>
+                    <button class="boton--grid">Ver Producto</button>
+				</div>
+
+                <div class="pic_3">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+				</div>
+                <div class="desc_3">
+                    <h5>Mascara Morocan oil milk</h5>
+                    <p>La mascara hidratante Morocan es un profundo y cremoso acondicionador creado para cabello medio, grueso y seco. Impregnada con aceite de argán antioxidante e ingredientes nutritivos, esta mascara hidrata y acondiciona mientras mejora dramáticamente la textura, elasticidad, brillo y manejabilidad del cabello.</p>
+                    <button class="boton--grid">Ver Producto</button>
+				</div>
+
+                <div class="pic_4">
+					<a href="productos.html"><img src="fotos/producto_1.jpg" alt="Equipo MAtero"></a>
+				</div>
+                <div class="desc_4">
+                    <h5>Mascara Morocan oil milk</h5>
+                    <p>La mascara hidratante Morocan es un profundo y cremoso acondicionador creado para cabello medio, grueso y seco. Impregnada con aceite de argán antioxidante e ingredientes nutritivos, esta mascara hidrata y acondiciona mientras mejora dramáticamente la textura, elasticidad, brillo y manejabilidad del cabello.</p>
+                    <button class="boton--grid">Ver Producto</button>
+				</div>
+		    </div>
+        </div>
+        <!---------------------------------Marcas------------------------------->
+		<div class="marcas">
+			<div class="contenedorChico">
+				<div class="fila">
+					<div class="columna-5">
+						<img src="fotos/logoM_1.png" alt="HairTherapy">
+					</div>
+					<div class="columna-5">
+						<img src="fotos/logoM_2.png" alt="Opcion">
+					</div>
+					<div class="columna-5">
+						<img src="fotos/logoM_3.png" alt="Exel">
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+<!--Fin del contenido-->
+		<a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=541163032797&amp;text=Hola!&nbsp;Estoy&nbsp;buscando&nbsp;...?">
+			<i class="fab fa-whatsapp"></i>
+			<!--<i class="fab fa-whatsapp-square"></i>-->
+		</a>
+	<!--pie de pagina-->
+	<footer class="footer">
+		<section class="footer__seccion">
+			<div class="footer__contenedor">
+				<div class="footer__izquierda">
+					<h2>Sobre Nosotros</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Omnis modi asperiores laudantium
+						recusandae quibusdam ea? Velit assumenda nam iure quibusdam est nihil accusamus quo nisi dolorem
+						corrupti? Maxime, quia voluptatum.
+					</p>
+					<ul class="footer__iconos">
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="footer__medio">
+					<h2>Nuestros Links</h2>
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Productos</a></li>
+						<li><a href="#">Nosotros</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</div>
+				<div class="footer__derecha">
+					<h2>Contacto Informacion</h2>
+					<ul class="informacionContacto">
+						<li>
+							<span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+							<span><a>Zona Oeste, Buenos Aires<br>Argentina</a></span>
+						</li>
+						<li>
+							<span>
+								<i class="fa fa-phone" aria-hidden="true"></i></span>
+							<p><a href="1139520920">11 3952-0920</a><br><a href="46647339">4664-7339</a></p>
+						</li>
+						<li>
+							<span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+							<p><a href="Matear@Gmail.com">Consultas.porlospelos@Gmail.com</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<div class="footer__copyRightText">
+			<p>Copyright © 2021 <a href="https://diegojavierconchillowagner.github.io/Portfolio/">Javier Conchillo Wagner.</a> Todos los derechos Reservados.</p>
+		</div>
+	</footer>
+	<!-- FIN PIE DE PAGINA-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+	</script>
+	<script src="https://kit.fontawesome.com/ed3429d64f.js" crossorigin="anonymous"></script>
+		<script>
+			$(document).ready(function () {
+				// Activate Carousel
+				$("#myCarousel").carousel();
+
+				// Enable Carousel Indicators
+				$(".item1").click(function () {
+					$("#myCarousel").carousel(0);
+				});
+				$(".item2").click(function () {
+					$("#myCarousel").carousel(1);
+				});
+				$(".item3").click(function () {
+					$("#myCarousel").carousel(2);
+				});
+
+				// Enable Carousel Controls
+				$(".carousel-control-prev").click(function () {
+					$("#myCarousel").carousel("prev");
+				});
+				$(".carousel-control-next").click(function () {
+					$("#myCarousel").carousel("next");
+				});
+			});
+		</script>
+		<script>
+			$(window).on('load',function(){
+				var delayMs = 1500; // delay in milliseconds
+	
+				   setTimeout(function(){
+					$('#myModal').modal('show');
+				 }, delayMs);
+			});    
+			</script>
+</body>
+</html>
