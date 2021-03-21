@@ -97,6 +97,9 @@ transition: .3s;
 	.modal-title{
 		color: #f1bc59;
 	}
+	.botonNews{
+		margin: 0 10px 0 10px;
+	}
 }
 
 .modalNews hr {
@@ -280,17 +283,20 @@ transition: .3s;
         border-radius: 10%;
 	}
 	h4 {
-		color: #555;
+		color: #fff5ed;
 		font-weight: normal;
 		text-align: center;
+		margin: 10px 0 0 0;
+		font-size: 22px;
 	}
 	.ranking{
 		text-align: center;
 	}
 	p {
-		font-size: 14px;
+		font-size: 15px;
 		text-align: center;
 		font-weight: 500;
+		color: #fff5ed94;
 	}
 	&:hover {
 		transform: translateY(-5px);
@@ -340,12 +346,12 @@ transition: .3s;
     grid-area: desc_1;
     h5{
         margin-left: 20px;
-		color: #f1bc59;
+		color: #fff5ed;
     }
     p{
         margin-left: 20px;
         padding-right: 20px;
-		color: #f1bc59;
+		color: #fff5ed94;
     }
 }
 .pic_2{
@@ -359,12 +365,12 @@ transition: .3s;
     grid-area: desc_2;
     h5{
         margin-left: 20px;
-		color: #f1bc59;
+		color: #fff5ed;
     }
     p{
         margin-left: 20px;
         padding-right: 20px;
-		color: #f1bc59;
+		color: #fff5ed94;
     }
 }
 .pic_3{
@@ -378,12 +384,12 @@ transition: .3s;
     grid-area: desc_3;
     h5{
         margin-left: 20px;
-		color: #f1bc59;
+		color: #fff5ed;
     }
     p{
         margin-left: 20px;
         padding-right: 20px;
-		color: #f1bc59;
+		color: #fff5ed94;
     }
 }
 .pic_4{
@@ -397,19 +403,19 @@ transition: .3s;
     grid-area: desc_4;
     h5{
         margin-left: 20px;
-		color: #f1bc59;
+		color: #fff5ed;
     }
     p{
         margin-left: 20px;
         padding-right: 20px;
-		color: #f1bc59;
+		color: #fff5ed94;
     }
 }
 .boton--grid {
 	display: inline-block;
 	border: 2px solid #f1bc5980;
 	background-color: transparent;
-	color: #f1bc59;
+	color: #fff5ed;
 	padding: 8px 30px;
 	margin-left: 20px;
     margin-top: 10px;
