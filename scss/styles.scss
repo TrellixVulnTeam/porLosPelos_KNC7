@@ -204,6 +204,7 @@ transition: .3s;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	
 }
 .columna-2 {
 	flex-basis: 50%;
@@ -277,6 +278,7 @@ transition: .3s;
 	margin-bottom: 50px;
 	transition: transform 0.5s;
 	text-align: center;
+	
 	
 	img {
 		width: 100%;
@@ -755,7 +757,7 @@ transition: .3s;
 		img {
 			width: 90%;
 			border-radius: 10%;
-			margin-bottom: 10px;
+			margin-bottom: 30px;
 		}
 	}
 	.desc_1{
@@ -773,6 +775,7 @@ transition: .3s;
 		img {
 			width: 90%;
 			border-radius: 10%;
+			margin-bottom: 30px;
 		}
 	}
 	.desc_2{
@@ -790,6 +793,7 @@ transition: .3s;
 		img {
 			width: 90%;
 			border-radius: 10%;
+			margin-bottom: 30px;
 		}
 	}
 	.desc_3{
@@ -807,6 +811,7 @@ transition: .3s;
 		img {
 			width: 90%;
 			border-radius: 10%;
+			margin-bottom: 30px;
 		}
 	}
 	.desc_4{
@@ -854,7 +859,6 @@ transition: .3s;
 		img {
 			width: 100%;
 			border-radius: 10%;
-
 		}
 	}
 	.desc_1{
@@ -867,7 +871,7 @@ transition: .3s;
 			padding-right: 20px;
 		}
 		.boton--grid{
-			margin-bottom: 15px;
+			margin-bottom: 45px;
 		}
 	}
 	.pic_2{
@@ -887,7 +891,7 @@ transition: .3s;
 			padding-right: 20px;
 		}
 		.boton--grid{
-			margin-bottom: 15px;
+			margin-bottom: 45px;
 		}
 	}
 	.pic_3{
@@ -907,7 +911,7 @@ transition: .3s;
 			padding-right: 20px;
 		}
 		.boton--grid{
-			margin-bottom: 15px;
+			margin-bottom: 45px;
 		}
 	}
 	.pic_4{
@@ -927,7 +931,7 @@ transition: .3s;
 			padding-right: 20px;
 		}
 		.boton--grid{
-			margin-bottom: 15px;
+		margin-bottom: 45px;
 		}
 	}
 
@@ -1076,6 +1080,14 @@ transition: .3s;
 	}
 }
 @media only screen and (max-width: 450px) {
+	.columna-4 {
+		flex-basis: 25%;
+		padding: 10px;
+		min-width: 200px;
+		margin-bottom: 50px;
+		transition: transform 0.5s;
+		text-align: center;
+	}
 	.contenedorPreguntasFrecuentes {
 		max-width: 400px;
 	}
@@ -1252,6 +1264,47 @@ transition: .3s;
 		}
 		label {
 			margin-right: 4px;
+		}
+	}
+}
+@media (max-width: 450px) {
+	.footer {
+		
+		.footer__seccion{
+			position: relative;
+			width: 100%;
+			height: auto;
+			padding: 2.525em 2.75em;
+			background: #111;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			.footer__contenedor {
+				flex-direction: column;
+
+				.footer__izquierda {
+					margin-right: 0;
+					margin-bottom: 2.5em;
+					width: 100%;
+					.footer__iconos{
+						padding-left: 0px;
+					}
+				}
+
+				.footer__medio {
+					width: 100%;
+				}
+
+				.footer__derecha {
+					width: 100%;
+					.informacionContacto{
+						padding-left: 0;
+					}
+				}
+			}
+		}
+		.footer__copyRightText {
+			padding: .5em 2.5em;
 		}
 	}
 }
