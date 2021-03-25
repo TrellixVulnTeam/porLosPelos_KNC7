@@ -303,6 +303,9 @@ transition: .3s;
 	&:hover {
 		transform: translateY(-5px);
 	}
+	a{
+		color: #f1bc59;
+	}
 }
 .ranking {
 	.fa {
@@ -641,7 +644,7 @@ transition: .3s;
 .menu__nosotros {
 	width: calc(70% - 20px);
 	h5{
-		color: #f1bc59;
+		color: #fff5ed94;
 	}
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------
