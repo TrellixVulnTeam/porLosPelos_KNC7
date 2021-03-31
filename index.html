@@ -24,11 +24,12 @@
 							<h2 class="modal-title" id="exampleModalLabel">Subscribete al NewsLetter</h2>
 							<hr>
 							<p>Ingresa tu email y recibi nuestros descuentos y ofertas exclusivas!</p>
-							<form>
-								<input type="name" placeholder="Nombre" required>
+							<form action="enviar.php" method="post">
+								<input type="text" name="name" id="name" placeholder="Nombre" required>
 								
-								<input type="email" placeholder="Email" required>
-								<button class="botonNews" data-bs-dismiss="modal">Enviar</button>
+								<input type="email" name="mail" id="mail" placeholder="Email" required>
+
+								<button type="submit" name="send" class="botonNews">Enviar</button>
 								<button class="botonNews" data-bs-dismiss="modal">Cerrar</button>
 							</form>
 						</div>
